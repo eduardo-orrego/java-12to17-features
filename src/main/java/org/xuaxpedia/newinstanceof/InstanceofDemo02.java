@@ -1,9 +1,13 @@
 package org.xuaxpedia.newinstanceof;
 
-// Introduced in Java 14 and standardized in Java 16, pattern matching with instanceof
-// simplifies type checking and casting into a single operation, allowing direct handling
-// of object elements if the expression matches the specified type. This enhances code
-// readability and safety by avoiding explicit casts and conversion errors.
+/*
+* Introduced in Java 14 and standardized in Java 16, pattern matching with instanceof
+* simplifies type checking and casting into a single operation, allowing direct handling
+* of object elements if the expression matches the specified type. This enhances code
+* readability and safety by avoiding explicit casts and conversion errors.
+* This example demonstrates a more complex usage of pattern matching with instanceof
+* compared to InstanceofDemo01.java.
+*/
 
 public class InstanceofDemo02 {
 
