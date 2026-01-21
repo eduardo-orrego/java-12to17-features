@@ -10,9 +10,6 @@ package org.xuaxpedia.newinstanceof;
 */
 public class InstanceOfDemo03 {
 
-    record Person(String name, int age) {
-    }
-
     public static void main(String[] args) {
 
         String result1 = checkObject(new Person("Edward", 38));
@@ -37,6 +34,9 @@ public class InstanceOfDemo03 {
     }
 }
 
+record Person(String name, int age) {
+}
+
 class Figure {
 
     String name;
@@ -48,4 +48,3 @@ class Figure {
     }
 
 }
-
