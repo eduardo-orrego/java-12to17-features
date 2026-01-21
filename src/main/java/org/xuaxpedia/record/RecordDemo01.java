@@ -1,10 +1,13 @@
 package org.xuaxpedia.record;
 
-// Records allow defining immutable classes for efficient data transfer, automating
-// the generation of methods such as equals(), hashCode(), and toString(), as well
-// as a constructor and getter methods. The immutability of records eliminates the
-// need for setters, simplifying the creation of data classes and improving code
-// clarity and maintainability.
+/*
+* This example demonstrates the basic usage of records in Java.
+* It shows how to create a record, access its components,
+* destructure it, and use it as constructor arguments for another record.
+* Records are immutable data carriers that automatically generate
+* boilerplate code such as constructors, accessors, equals(), hashCode(), and toString() methods.
+* This makes them ideal for representing simple data structures in a concise manner.
+*/
 
 public class RecordDemo01 {
 
@@ -23,6 +26,7 @@ public class RecordDemo01 {
         PersonRecord personRecord2 = new PersonRecord("Mary", 25, null);
         String name = personRecord2.name();
         int age = personRecord2.year();
+        System.out.println("Destructuring records. Name: " + name + ", Age: " + age);
 
         // Can be used as constructor arguments
         PersonRecord fatherRecord = new PersonRecord("Carlos", 50, null);

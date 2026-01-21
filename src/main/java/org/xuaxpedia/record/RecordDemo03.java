@@ -4,11 +4,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-// Records allow defining immutable classes for efficient data transfer, automating
-// the generation of methods such as equals(), hashCode(), and toString(), as well
-// as a constructor and getter methods. The immutability of records eliminates the
-// need for setters, simplifying the creation of data classes and improving code
-// clarity and maintainability.
+/*
+* This example demonstrates the use of local records in Java
+* to encapsulate data within a method. Here, we define a local
+* record MerchantSales inside the findTopMerchants method to
+* hold information about merchants and their sales. The method
+* processes a list of merchants, computes their sales, sorts them
+* in descending order, and returns a list of merchants based on
+* their sales performance. Local records help in organizing
+* related data and improving code readability within the method scope.
+*/
 
 public class RecordDemo03 {
 
