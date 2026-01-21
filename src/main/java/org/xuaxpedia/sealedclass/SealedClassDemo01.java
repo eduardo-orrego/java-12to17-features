@@ -27,12 +27,20 @@ public class SealedClassDemo01 {
         double rotateShape = rotate(circle);
         System.out.println(rotateShape);
 
+        Shape rectangle = new TransparentRectangle(2, 3);
+        double rotateRectangle = rotate(rectangle);
+        System.out.println(rotateRectangle);
+        
+        Shape square = new Square(4);
+        double rotateSquare = rotate(square);
+        System.out.println(rotateSquare);
+
     }
 
     static double rotate(Shape shape) {
-        if (shape instanceof Circle) return shape.calculateArea();
-        else if (shape instanceof Rectangle) return shape.calculateArea();
-        else if (shape instanceof Square) return shape.calculateArea();
+        if (shape instanceof Circle circle) return circle.calculateArea();
+        else if (shape instanceof Rectangle rectangle) return rectangle.calculateArea();
+        else if (shape instanceof Square square) return square.calculateArea();
         else return 1.00;
     }
 
