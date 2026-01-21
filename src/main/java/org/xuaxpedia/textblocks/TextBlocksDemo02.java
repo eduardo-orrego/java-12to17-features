@@ -1,9 +1,12 @@
 package org.xuaxpedia.textblocks;
 
-// Text blocks, standardized in Java 17, allow for more readable and convenient multi-line string
-// representation. Using triple quotes ("""), they eliminate the need for concatenating strings
-// or using escape sequences, facilitating the writing of extensive texts such as JSON, XML,
-// or SQL queries in the desired format.
+/**
+* Text blocks, standardized in Java 17, allow for more readable and convenient multi-line string
+* representation. Using triple quotes ("""), they eliminate the need for concatenating strings
+* or using escape sequences, facilitating the writing of extensive texts such as JSON, XML,
+* or SQL queries in the desired format.
+* This example demonstrates a simpler usage of text blocks compared to TextBlocksDemo01.java.
+*/
 
 public class TextBlocksDemo02 {
 

@@ -2,10 +2,23 @@ package org.xuaxpedia.switchexpressions;
 
 import java.util.Scanner;
 
-// In Java 17, switch expressions are standardized with a modern and concise syntax,
-// allowing values to be returned and multi-line expressions to be used. The new syntax,
-// which includes the "->" operator, simplifies case definitions and improves code readability,
-// facilitating more expressive and compact conditional structures.
+/*
+* This example demonstrates the use of switch expressions in Java, introduced as a preview
+* feature in Java 12 and standardized in Java 14.
+* Switch expressions allow for more concise and expressive code by returning values directly
+* from each case using the 'yield' keyword.
+* In this example, a day of the week is read from user input and a switch expression is used
+* to map it to a corresponding integer value.
+* When the input does not match any valid case, a default case handles the invalid input,
+* prints a message, and returns a value of 0.
+* This returned value (0) is assigned to a variable, allowing it to be captured and used
+* later in the program’s execution flow.
+* Two different switch expression syntaxes are demonstrated: the modern arrow (->) syntax
+* and the traditional colon (:) syntax combined with the 'yield' statement.
+* In all cases, each branch of the switch produces a value, ensuring that the switch
+* expression as a whole evaluates to a single result.
+*/
+
 
 public class SwitchExpressionDemo02 {
 

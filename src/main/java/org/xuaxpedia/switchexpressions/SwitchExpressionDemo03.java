@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.time.DayOfWeek;
 import java.util.Scanner;
 
-// In Java 17, switch expressions are standardized with a modern and concise syntax,
-// allowing values to be returned and multi-line expressions to be used. The new syntax,
-// which includes the "->" operator, simplifies case definitions and improves code readability,
-// facilitating more expressive and compact conditional structures.
+/*
+* This example demonstrates the use of switch expressions in Java, introduced as a preview
+* feature in Java 12 and standardized in Java 14.
+* Switch expressions allow for more concise and expressive code by using the modern arrow (->) syntax
+* and enabling multiple labels for a single case.
+*/
 
 public class SwitchExpressionDemo03 {
 
