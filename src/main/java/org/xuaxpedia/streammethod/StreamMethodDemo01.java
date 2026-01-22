@@ -22,12 +22,16 @@ public class StreamMethodDemo01 {
         List<String> nameList1 = nameStream1.collect(Collectors.toList());
         List<Integer> yearList1 = yearStream1.boxed().collect(Collectors.toList());
 
+        System.out.println("Name List 1: " + nameList1 + ", Year List 1: " + yearList1);
+
         //Now with Java 16 - Use of Stream.toList()
         Stream<String> stream2 = Stream.of("Eduardo", "Luis", "Patricia");
         IntStream intStream2 = IntStream.of(1985, 1984, 1999, 2001);
 
         List<String> nameList2 = stream2.toList();
         List<Integer> yearList2 = intStream2.boxed().toList();
+
+        System.out.println("Name List 2: " + nameList2 + ", Year List 2: " + yearList2);
 
     }
 }

@@ -19,7 +19,6 @@ import java.util.Scanner;
 * expression as a whole evaluates to a single result.
 */
 
-
 public class SwitchExpressionDemo02 {
 
     public static void main(String[] args) {
